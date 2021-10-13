@@ -1,0 +1,9 @@
+{
+  "groups": [
+    {
+      "name": "group A",
+      "students": ["Arthur Jawetz", "Lucas Balbinot", "Rodrigo Boesche"],
+      "moderator": "Gabriel Oberon"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "name": "Arthur Jawetz",
+      "age": 22,
+      "course": "Engenharia de Software",
+      "class": 0,
+      "group": "groupA",
+      "role": "Moderador"
+    },
+    {
+      "name": "Lucas Balbinot",
+      "age": 20,
+      "course": "Engenharia de Software",
+      "class": 0,
+      "group": "groupA"
+    },
+    {
+      "name": "Rodrigo Boesche",
+      "age": 20,
+      "course": "Engenharia de Software",
+      "class": 0,
+      "group": "groupB"
+    }
+  ]
+}

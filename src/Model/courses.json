@@ -1,0 +1,136 @@
+{
+  "courses": [
+    {
+      "name": "Fundamentos de Banco de Dados",
+      "classes": [
+        {
+          "classID": 0,
+          "professor": "Renata Galante",
+          "groups": [
+            {
+              "name": "group1",
+              "participants": ["student1", "student2", "student3"]
+            },
+            {
+              "name": "group2",
+              "participants": ["student4", "student5", "student6"]
+            }
+          ]
+        },
+        {
+          "classID": 1,
+          "professor": "Renata Galante",
+          "groups": [
+            {
+              "name": "group11",
+              "participants": ["student11", "student21", "student31"]
+            },
+            {
+              "name": "group21",
+              "participants": ["student41", "student51", "student61"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engenharia de Software",
+      "classes": [
+        {
+          "classID": 2,
+          "professor": "Lucinéia H. Thom",
+          "groups": [
+            {
+              "name": "group1",
+              "participants": ["student1", "student2", "student3"]
+            },
+            {
+              "name": "group2",
+              "participants": ["student4", "student5", "student6"]
+            }
+          ]
+        },
+        {
+          "classID": 3,
+          "professor": "Lucinéia H. Thom",
+          "groups": [
+            {
+              "name": "group11",
+              "participants": ["student11", "student21", "student31"]
+            },
+            {
+              "name": "group21",
+              "participants": ["student41", "student51", "student61"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cálculo 1",
+      "classes": [
+        {
+          "classID": 4,
+          "professor": "Jaquinho",
+          "groups": [
+            {
+              "name": "group1",
+              "participants": ["student1", "student2", "student3"]
+            },
+            {
+              "name": "group2",
+              "participants": ["student4", "student5", "student6"]
+            }
+          ]
+        },
+        {
+          "classID": 5,
+          "professor": "Jaquinho",
+          "groups": [
+            {
+              "name": "group11",
+              "participants": ["student11", "student21", "student31"]
+            },
+            {
+              "name": "group21",
+              "participants": ["student41", "student51", "student61"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eletromagnetismo",
+      "classes": [
+        {
+          "classID": 6,
+          "professor": "Bonattinho",
+          "groups": [
+            {
+              "name": "group1",
+              "participants": ["student1", "student2", "student3"]
+            },
+            {
+              "name": "group2",
+              "participants": ["student4", "student5", "student6"]
+            }
+          ]
+        },
+        {
+          "classID": 7,
+          "professor": "Bonattinho",
+          "groups": [
+            {
+              "name": "group11",
+              "participants": ["student11", "student21", "student31"]
+            },
+            {
+              "name": "group21",
+              "participants": ["student41", "student51", "student61"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

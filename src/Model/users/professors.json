@@ -1,0 +1,14 @@
+{
+  "professors": [
+    {
+      "name": "Renata Galante",
+      "course": "Fundamentos de Banco de Dados",
+      "classes": [0, 1, 2]
+    },
+    {
+      "name": "Lucineia",
+      "course": "Engenharia de Software",
+      "classes": [0, 1]
+    }
+  ]
+}
