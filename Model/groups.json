@@ -1,1 +1,28 @@
-{"groups":[{"name":"group A","students":["Arthur Jawetz","Lucas Balbinot","Rodrigo Boesche"],"moderator":"Gabriel Oberon"},{"name":"group B","students":[],"moderator":"Arthur"},{"name":"asfas","students":[],"moderator":"Arthur"},{"name":"grupo mais foda do brasil","students":[],"moderator":"Arthur"},{"name":"mi amigo","students":[],"moderator":"Arthur"},{"name":"testeee","students":[],"moderator":"Arthur"},{"name":"","students":[],"moderator":"Arthur"},{"name":"CARLITOOOS","students":[],"moderator":"Arthur"},{"name":"meu grupo foda","students":[],"moderator":"Arthur"}]}
+{
+  "groups": [
+    {
+      "course": "Engenharia de Software",
+      "classID": 2,
+      "name": "group A",
+      "work": "Trabalho prático 2",
+      "students": ["Arthur Jawetz", "Lucas Balbinot", "Rodrigo Boesche"],
+      "moderators": ["Gabriel Oberon"]
+    },
+    {
+      "course": "Engenharia de Software",
+      "classID": 3,
+      "name": "group B",
+      "work": "Trabalho prático 2",
+      "students": ["Pierre", "Jacquin"],
+      "moderators": ["Juquinha"]
+    },
+    {
+      "name": "nome do meu grupo",
+      "students": [],
+      "moderators": ["Arthur Jawetz"],
+      "course": "Engenharia de Software",
+      "classID": 2,
+      "work": "fazer trabalho 2"
+    }
+  ]
+}

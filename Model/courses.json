@@ -6,28 +6,76 @@
         {
           "classID": 0,
           "professor": "Renata Galante",
-          "groups": [
+          "works": [
             {
-              "name": "group1",
-              "participants": ["student1", "student2", "student3"]
+              "name": "Criar primeiro banco de dado",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group2",
-              "participants": ["student4", "student5", "student6"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         },
         {
           "classID": 1,
           "professor": "Renata Galante",
-          "groups": [
+          "works": [
             {
-              "name": "group11",
-              "participants": ["student11", "student21", "student31"]
+              "name": "Criar primeiro banco de dado",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group21",
-              "participants": ["student41", "student51", "student61"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         }
@@ -39,28 +87,81 @@
         {
           "classID": 2,
           "professor": "Lucinéia H. Thom",
-          "groups": [
+          "works": [
             {
-              "name": "group1",
-              "participants": ["student1", "student2", "student3"]
+              "name": "fazer trabalho 2",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "nome do meu grupo",
+                  "students": [],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group2",
-              "participants": ["student4", "student5", "student6"]
+              "name": "Fazer trabalho 3",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         },
         {
           "classID": 3,
           "professor": "Lucinéia H. Thom",
-          "groups": [
+          "works": [
             {
-              "name": "group11",
-              "participants": ["student11", "student21", "student31"]
+              "name": "Fazer trabalho 2",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group21",
-              "participants": ["student41", "student51", "student61"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         }
@@ -72,28 +173,76 @@
         {
           "classID": 4,
           "professor": "Jaquinho",
-          "groups": [
+          "works": [
             {
-              "name": "group1",
-              "participants": ["student1", "student2", "student3"]
+              "name": "Criar primeiro banco de dado",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group2",
-              "participants": ["student4", "student5", "student6"]
+              "name": "Prova em duplas calculo",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         },
         {
           "classID": 5,
           "professor": "Jaquinho",
-          "groups": [
+          "works": [
             {
-              "name": "group11",
-              "participants": ["student11", "student21", "student31"]
+              "name": "Criar derivada",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group21",
-              "participants": ["student41", "student51", "student61"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         }
@@ -104,29 +253,77 @@
       "classes": [
         {
           "classID": 6,
-          "professor": "Bonattinho",
-          "groups": [
+          "works": [
             {
-              "name": "group1",
-              "participants": ["student1", "student2", "student3"]
+              "name": "Criar bobina 1",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group2",
-              "participants": ["student4", "student5", "student6"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group1",
+                  "students": ["student1", "student2", "student3"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group2",
+                  "students": ["student4", "student5", "student6"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
-          ]
+          ],
+          "professor": "Bonattinho"
         },
         {
           "classID": 7,
           "professor": "Bonattinho",
-          "groups": [
+          "works": [
             {
-              "name": "group11",
-              "participants": ["student11", "student21", "student31"]
+              "name": "Criar bobina 2",
+              "participants": 4,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             },
             {
-              "name": "group21",
-              "participants": ["student41", "student51", "student61"]
+              "name": "Prova em duplas",
+              "participants": 2,
+              "groups": [
+                {
+                  "name": "group11",
+                  "students": ["student11", "student21", "student31"],
+                  "moderators": ["Arthur Jawetz"]
+                },
+                {
+                  "name": "group21",
+                  "students": ["student41", "student51", "student61"],
+                  "moderators": ["Arthur Jawetz"]
+                }
+              ]
             }
           ]
         }

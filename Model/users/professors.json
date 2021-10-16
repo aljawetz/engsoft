@@ -2,13 +2,29 @@
   "professors": [
     {
       "name": "Renata Galante",
-      "course": "Fundamentos de Banco de Dados",
-      "classes": [0, 1, 2]
+      "courses": [
+        {
+          "name": "Fundamentos de Banco de Dados",
+          "classID": 0
+        },
+        {
+          "name": "Fundamentos de Banco de Dados",
+          "classID": 1
+        }
+      ]
     },
     {
       "name": "Lucineia",
-      "course": "Engenharia de Software",
-      "classes": [0, 1]
+      "courses": [
+        {
+          "name": "Engenharia de Software",
+          "classID": 2
+        },
+        {
+          "name": "Engenharia de Software",
+          "classID": 3
+        }
+      ]
     }
   ]
 }

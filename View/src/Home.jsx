@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Navbar from "./Components/Navbar";
 import CreateGroup from "./Pages/Group/CreateGroup";
 import ViewGroups from "./Pages/Group/viewGroups";
+import LoginScreen from "./Pages/Login";
 
 function Home() {
   return (
@@ -11,6 +12,11 @@ function Home() {
       <Navbar />
 
       <Switch>
+        {/* Tela de Login */}
+        <Route exact path='/'>
+          <LoginScreen />
+        </Route>
+    
         {/* Routes dos estudantes */}
         <Route path="/student">
           {/* Criação de grupos */}
