@@ -1,11 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const courses = require('../Model/courses.json')
-const logged_user = require('../Model/logged_user.json')
-
-// classe User
-class User {}
+const courses = require('../Model/Database/courses.json')
+const logged_user = require('../Model/Database/logged_user.json')
 
 router.get('/get-courses', (req, res) => {
     console.log('enviando cursos')
@@ -17,4 +14,4 @@ router.get('/get-logged-user', (req,res) => {
     res.json(logged_user);
 })
 
-module.exports = {User, router};
+module.exports = router;

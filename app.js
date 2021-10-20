@@ -1,7 +1,7 @@
 const bodyParser = require("body-parser");
 const express = require("express");
 
-const students = require('./Model/users/students.json')
+const students = require('./Model/Database/users/students.json')
 
 const fs = require('fs');
 
@@ -12,9 +12,8 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded());
 
 // routes dos estudantes
-const student = require('./Controller/Users/Student')
-const user_router = require('./Controller/User')
-const User = user_router.router;
+const student = require('./Controller/Users/Student_router')
+const User = require('./Controller/User_router')
 
 app.use('/user', User);
 app.use('/student', student);
@@ -35,7 +34,7 @@ app.post("/", (req, res) => {
   } )
 
   
-  fs.writeFile("./Model/logged_user.json", JSON.stringify(user), function(err) {
+  fs.writeFile("./Model/Database/logged_user.json", JSON.stringify(user), function(err) {
     if (err) throw err;
     console.log('complete');
     });

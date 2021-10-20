@@ -1,17 +1,8 @@
-// import { User } from "../User";
-// import { users } from "../../Model/users/students.json";
-// import { groups } from "../../Model/groups.json";
-// const writeFileP = require("write-file-p");
-
-const express = require('express');
-const router = express.Router();
-
-const user = require('../User');
-const User = user.User;
-const courses = require('../../Model/courses.json')
-const students = require('../../Model/users/students.json');
-const groups = require('../../Model/groups.json');
-const logged_user = require('../../Model/logged_user.json');
+const User = require('../User');
+const courses = require('../../Model/Database/courses.json')
+const students = require('../../Model/Database/users/students.json');
+const groups = require('../../Model/Database/groups.json');
+const logged_user = require('../../Model/Database/logged_user.json');
 
 const fs = require('fs');
 
@@ -60,8 +51,6 @@ class Student extends User {
       }
     }
 
-    console.log('oi')
-
     for( let i=0; i<students.users.length; i++ ) {
       if( students.users[i].name == logged_user.name ) {
         students.users[i].groups.push(
@@ -80,40 +69,24 @@ class Student extends User {
 
     console.log(newGroup)
 
-    fs.writeFile("./Model/groups.json", JSON.stringify(groups), function(err) {
+    fs.writeFile("./Model/Database/groups.json", JSON.stringify(groups), function(err) {
       if (err) throw err;
       console.log('complete 1');
       });
 
-    fs.writeFile("./Model/courses.json", JSON.stringify(courses), function(err) {
+    fs.writeFile("./Model/Database/courses.json", JSON.stringify(courses), function(err) {
       if (err) throw err;
       console.log('complete 2');
       });
 
-    fs.writeFile("./Model/users/students.json", JSON.stringify(students), function(err) {
+    fs.writeFile("./Model/Database/users/students.json", JSON.stringify(students), function(err) {
       if (err) throw err;
       console.log('complete 3');
       });
-
 
       res.send({"sucesso": "sim"})
   }
 
 }
 
-router.get('/get-students', (req,res) => {
-  console.log('meio funcionando');
-  res.json(students)
-})
-
-router.get('/get-groups', (req,res) => {
-  console.log("alo")
-  res.json(groups);
-})
-
-router.post('/create-group', (req, res) => {
-  console.log(req.body)
-  new Student().create_group(req, res);
-});
-
-module.exports = router;
+module.exports = Student;
